@@ -10,7 +10,7 @@ public class HomePage extends BasePage {
         super(driver);
     }
 
-    String baseURL = "https://test:werushtest@test.werush.co/";
+    private static final String baseURL = "https://test:werushtest@test.werush.co/";
 
     @Step
     public HomePage open() {
